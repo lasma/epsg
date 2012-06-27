@@ -1,4 +1,9 @@
-﻿COMMENT ON TABLE epsg_alias IS 'Aliases for all object types.';
+﻿/*
+  Add comments on EPSG tables.
+  Comments extracted from "EPSG Geodetic Parameter Relational Database – Developers Guide"
+  OGP Publication 373-7-4 – Geomatics Guidance Note number 7, part 4 – May 2009
+*/
+COMMENT ON TABLE epsg_alias IS 'Aliases for all object types.';
 COMMENT ON TABLE epsg_area IS 'Text and minimum bounding geographic rectangle descriptions for area of use, referenced by datum, CRS and coordinate operation records.';
 COMMENT ON TABLE epsg_change IS 'Coordinate axis abbreviation, orientation and order. Also links coordinate axis name with coordinate system.';
 COMMENT ON TABLE epsg_coordinateaxis IS 'Coordinate axis abbreviation, orientation and order. Also links coordinate axis name with coordinate system.';
